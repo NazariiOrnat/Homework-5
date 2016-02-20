@@ -13,3 +13,12 @@ div p{
     max-width: 100px;
     outline: 1px solid #666;
 }
+.twocolum{
+    column-count: 3;
+    column-rule: 3px red;
+    column-gap: 3em;
+}
+.region{
+    background: #9ACD32;
+    overflow:visible
+}
