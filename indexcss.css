@@ -1,3 +1,15 @@
-.p{
-    collapse
+#first{
+    display: flex;
+    flex-direction: row;
+    outline: dotted;
+    flex-wrap: wrap;
+    
+}
+div p{
+    flex: 1auto;
+    color: black;
+    background: white;
+    max-height: 100px;
+    max-width: 100px;
+    outline: 1px solid #666;
 }
